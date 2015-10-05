@@ -1,0 +1,40 @@
+//
+//  WB201510.pch
+//  WB201510
+//
+//  Created by wwwbbat on 15/10/5.
+//  Copyright © 2015年 wwwbbat. All rights reserved.
+//
+
+#ifndef WB201510_pch
+#define WB201510_pch
+
+#import <Foundation/Foundation.h>
+
+#import "UIViewController+WBVC.h"
+
+#pragma mark -
+/**
+ *  viewController是否取至storyboard
+ */
+#define WBViewControllerInstanceFromStroyboardFlag
+
+#pragma mark -
+#define iOS7 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0 ? YES : NO)
+#define iOS8 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0 ? YES : NO)
+#define Device_Width  [UIScreen mainScreen].bounds.size.width
+#define Device_Height [UIScreen mainScreen].bounds.size.height
+#define Device_SysVersion  [UIDevice currentDevice].systemVersion.floatValue
+
+#define RGBColor(R,G,B,A) [UIColor colorWithRed:(R)/255.f green:(G)/255.f blue:(B)/255.f alpha:(A)]
+#define ResizableImage(name,t,l,b,r) [[UIImage imageNamed:(name)] resizableImageWithCapInsets:UIEdgeInsetsMake((t), (l), (b), (r))]
+
+#warning 发布的时候 DDDEBUG改为 0
+#define DDDEBUG 1
+#if DDDEBUG
+#define NSLog( s, ... ) NSLog( @"<%@:(%d)> %@", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+#else
+#define NSLog( s, ... )
+#endif
+
+#endif /* WB201510_pch */

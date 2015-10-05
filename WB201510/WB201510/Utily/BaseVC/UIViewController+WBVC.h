@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIViewController+WBVC.h
 //  WB201510
 //
 //  Created by wwwbbat on 15/10/5.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface UIViewController (WBVC)
 
++ (instancetype)instanceFromStoryboard;
 
 @end
-

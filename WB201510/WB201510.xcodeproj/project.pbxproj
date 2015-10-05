@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		2D77581A1BC23470007998CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7758191BC23470007998CD /* main.m */; };
 		2D77581D1BC23470007998CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D77581C1BC23470007998CD /* AppDelegate.m */; };
-		2D7758201BC23470007998CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D77581F1BC23470007998CD /* ViewController.m */; };
 		2D7758231BC23470007998CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D7758211BC23470007998CD /* Main.storyboard */; };
 		2D7758251BC23470007998CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D7758241BC23470007998CD /* Assets.xcassets */; };
 		2D7758281BC23470007998CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D7758261BC23470007998CD /* LaunchScreen.storyboard */; };
+		2D7758331BC24107007998CD /* WBFirstUseNVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7758311BC24107007998CD /* WBFirstUseNVC.m */; settings = {ASSET_TAGS = (); }; };
+		2D77583A1BC24177007998CD /* UIViewController+WBVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7758391BC24177007998CD /* UIViewController+WBVC.m */; settings = {ASSET_TAGS = (); }; };
+		2D77583F1BC24309007998CD /* WBWelcomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D77583D1BC24309007998CD /* WBWelcomeVC.m */; settings = {ASSET_TAGS = (); }; };
+		2D7758401BC24309007998CD /* WBWelcomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D77583E1BC24309007998CD /* WBWelcomeVC.xib */; settings = {ASSET_TAGS = (); }; };
+		2D7758431BC2455C007998CD /* WBUserBaseInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7758421BC2455C007998CD /* WBUserBaseInfoVC.m */; settings = {ASSET_TAGS = (); }; };
 		B54764E147BB41BE5E63E50C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75BE109E70E435B8120EF056 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -22,12 +26,20 @@
 		2D7758191BC23470007998CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2D77581B1BC23470007998CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2D77581C1BC23470007998CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2D77581E1BC23470007998CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2D77581F1BC23470007998CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2D7758221BC23470007998CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D7758241BC23470007998CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D7758271BC23470007998CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D7758291BC23470007998CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D7758301BC24107007998CD /* WBFirstUseNVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WBFirstUseNVC.h; path = FirstUse/ViewController/WBFirstUseNVC.h; sourceTree = "<group>"; };
+		2D7758311BC24107007998CD /* WBFirstUseNVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WBFirstUseNVC.m; path = FirstUse/ViewController/WBFirstUseNVC.m; sourceTree = "<group>"; };
+		2D7758381BC24177007998CD /* UIViewController+WBVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+WBVC.h"; path = "Utily/BaseVC/UIViewController+WBVC.h"; sourceTree = "<group>"; };
+		2D7758391BC24177007998CD /* UIViewController+WBVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+WBVC.m"; path = "Utily/BaseVC/UIViewController+WBVC.m"; sourceTree = "<group>"; };
+		2D77583B1BC24275007998CD /* WB201510.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WB201510.pch; sourceTree = "<group>"; };
+		2D77583C1BC24309007998CD /* WBWelcomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WBWelcomeVC.h; path = FirstUse/ViewController/WBWelcomeVC.h; sourceTree = "<group>"; };
+		2D77583D1BC24309007998CD /* WBWelcomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WBWelcomeVC.m; path = FirstUse/ViewController/WBWelcomeVC.m; sourceTree = "<group>"; };
+		2D77583E1BC24309007998CD /* WBWelcomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WBWelcomeVC.xib; path = FirstUse/ViewController/WBWelcomeVC.xib; sourceTree = "<group>"; };
+		2D7758411BC2455C007998CD /* WBUserBaseInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WBUserBaseInfoVC.h; path = FirstUse/ViewController/WBUserBaseInfoVC.h; sourceTree = "<group>"; };
+		2D7758421BC2455C007998CD /* WBUserBaseInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WBUserBaseInfoVC.m; path = FirstUse/ViewController/WBUserBaseInfoVC.m; sourceTree = "<group>"; };
 		75BE109E70E435B8120EF056 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8A6C383344CF76F351252D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,14 +77,12 @@
 		2D7758171BC23470007998CD /* WB201510 */ = {
 			isa = PBXGroup;
 			children = (
+				2D7758361BC24126007998CD /* Utily */,
+				2D77582F1BC240C2007998CD /* FirstUse */,
 				2D77581B1BC23470007998CD /* AppDelegate.h */,
 				2D77581C1BC23470007998CD /* AppDelegate.m */,
-				2D77581E1BC23470007998CD /* ViewController.h */,
-				2D77581F1BC23470007998CD /* ViewController.m */,
 				2D7758211BC23470007998CD /* Main.storyboard */,
 				2D7758241BC23470007998CD /* Assets.xcassets */,
-				2D7758261BC23470007998CD /* LaunchScreen.storyboard */,
-				2D7758291BC23470007998CD /* Info.plist */,
 				2D7758181BC23470007998CD /* Supporting Files */,
 			);
 			path = WB201510;
@@ -81,9 +91,51 @@
 		2D7758181BC23470007998CD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2D7758261BC23470007998CD /* LaunchScreen.storyboard */,
+				2D7758291BC23470007998CD /* Info.plist */,
 				2D7758191BC23470007998CD /* main.m */,
+				2D77583B1BC24275007998CD /* WB201510.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D77582F1BC240C2007998CD /* FirstUse */ = {
+			isa = PBXGroup;
+			children = (
+				2D7758351BC2410D007998CD /* Controller */,
+			);
+			name = FirstUse;
+			sourceTree = "<group>";
+		};
+		2D7758351BC2410D007998CD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2D7758301BC24107007998CD /* WBFirstUseNVC.h */,
+				2D7758311BC24107007998CD /* WBFirstUseNVC.m */,
+				2D77583C1BC24309007998CD /* WBWelcomeVC.h */,
+				2D77583D1BC24309007998CD /* WBWelcomeVC.m */,
+				2D77583E1BC24309007998CD /* WBWelcomeVC.xib */,
+				2D7758411BC2455C007998CD /* WBUserBaseInfoVC.h */,
+				2D7758421BC2455C007998CD /* WBUserBaseInfoVC.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2D7758361BC24126007998CD /* Utily */ = {
+			isa = PBXGroup;
+			children = (
+				2D7758371BC2414D007998CD /* BaseViewController */,
+			);
+			name = Utily;
+			sourceTree = "<group>";
+		};
+		2D7758371BC2414D007998CD /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2D7758381BC24177007998CD /* UIViewController+WBVC.h */,
+				2D7758391BC24177007998CD /* UIViewController+WBVC.m */,
+			);
+			name = BaseViewController;
 			sourceTree = "<group>";
 		};
 		E11A1B1B564FA201D8BF7CC9 /* Frameworks */ = {
@@ -164,6 +216,7 @@
 			files = (
 				2D7758281BC23470007998CD /* LaunchScreen.storyboard in Resources */,
 				2D7758251BC23470007998CD /* Assets.xcassets in Resources */,
+				2D7758401BC24309007998CD /* WBWelcomeVC.xib in Resources */,
 				2D7758231BC23470007998CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,9 +261,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D7758201BC23470007998CD /* ViewController.m in Sources */,
 				2D77581D1BC23470007998CD /* AppDelegate.m in Sources */,
 				2D77581A1BC23470007998CD /* main.m in Sources */,
+				2D77583A1BC24177007998CD /* UIViewController+WBVC.m in Sources */,
+				2D77583F1BC24309007998CD /* WBWelcomeVC.m in Sources */,
+				2D7758331BC24107007998CD /* WBFirstUseNVC.m in Sources */,
+				2D7758431BC2455C007998CD /* WBUserBaseInfoVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +328,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -309,7 +365,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -321,7 +377,10 @@
 			baseConfigurationReference = 1DDE73EE128497DF1876E484 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WB201510/WB201510.pch;
 				INFOPLIST_FILE = WB201510/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wwwbbat.WB201510;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -333,7 +392,10 @@
 			baseConfigurationReference = DD8A6C383344CF76F351252D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WB201510/WB201510.pch;
 				INFOPLIST_FILE = WB201510/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wwwbbat.WB201510;
 				PRODUCT_NAME = "$(TARGET_NAME)";
