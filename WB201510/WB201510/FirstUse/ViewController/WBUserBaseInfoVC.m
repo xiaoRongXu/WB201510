@@ -9,7 +9,8 @@
 #import "WBUserBaseInfoVC.h"
 #import <IQKeyboardManager/IQKeyboardReturnKeyHandler.h>
 
-@interface WBUserBaseInfoVC ()
+@interface WBUserBaseInfoVC ()<UITextFieldDelegate,UITextViewDelegate>
+
 @property (weak, nonatomic) IBOutlet UITextField *nicknameTextField;
 @property (weak, nonatomic) IBOutlet UITextField *passwordTextField;
 @property (weak, nonatomic) IBOutlet UITextField *usernameTextField;
@@ -57,6 +58,7 @@
     [self.IQKeyboardHandler addTextFieldView:self.heightTextField];
     [self.IQKeyboardHandler addTextFieldView:self.hospitalTextField];
     [self.IQKeyboardHandler addTextFieldView:self.doctorTextField];
+    self.IQKeyboardHandler.delegate = self;
 }
 
 - (void)done:(id)sender{
@@ -66,6 +68,24 @@
 
 - (void)dealloc{
     self.IQKeyboardHandler = nil;
+}
+
+#pragma mark - UITextField delegate
+- (BOOL)textFieldShouldBeginEditing:(UITextField *)textField
+{
+//    if (textField == self.ganderTextField) {
+//        [self.phoneTextField becomeFirstResponder];
+//        return NO;
+//    }
+//    if (textField == self.birthdayTextField) {
+//        [self.phoneTextField becomeFirstResponder];
+//        return NO;
+//    }
+//    if (textField == self.hospitalTextField) {
+//        [self.doctorTextField becomeFirstResponder];
+//        return NO;
+//    }
+    return YES;
 }
 
 @end

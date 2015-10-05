@@ -27,6 +27,7 @@
 #define Device_SysVersion  [UIDevice currentDevice].systemVersion.floatValue
 
 #define RGBColor(R,G,B,A) [UIColor colorWithRed:(R)/255.f green:(G)/255.f blue:(B)/255.f alpha:(A)]
+#define HEXColor(HEX) RGBColor((HEX & 0xFF0000) >> 16),(HEX & 0xFF00) >> 8),(HEX & 0xFF),1)
 #define ResizableImage(name,t,l,b,r) [[UIImage imageNamed:(name)] resizableImageWithCapInsets:UIEdgeInsetsMake((t), (l), (b), (r))]
 
 #warning 发布的时候 DDDEBUG改为 0

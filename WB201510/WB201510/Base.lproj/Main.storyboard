@@ -403,7 +403,6 @@
                         </sections>
                         <connections>
                             <outlet property="dataSource" destination="dMJ-Qr-hcV" id="oNV-a3-NZ5"/>
-                            <outlet property="delegate" destination="dMJ-Qr-hcV" id="n7s-J2-Wp4"/>
                         </connections>
                     </tableView>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>

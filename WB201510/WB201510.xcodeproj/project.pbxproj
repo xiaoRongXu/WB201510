@@ -13,10 +13,13 @@
 		2D7758251BC23470007998CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D7758241BC23470007998CD /* Assets.xcassets */; };
 		2D7758281BC23470007998CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D7758261BC23470007998CD /* LaunchScreen.storyboard */; };
 		2D7758331BC24107007998CD /* WBFirstUseNVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7758311BC24107007998CD /* WBFirstUseNVC.m */; settings = {ASSET_TAGS = (); }; };
-		2D77583A1BC24177007998CD /* UIViewController+WBVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7758391BC24177007998CD /* UIViewController+WBVC.m */; settings = {ASSET_TAGS = (); }; };
 		2D77583F1BC24309007998CD /* WBWelcomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D77583D1BC24309007998CD /* WBWelcomeVC.m */; settings = {ASSET_TAGS = (); }; };
 		2D7758401BC24309007998CD /* WBWelcomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D77583E1BC24309007998CD /* WBWelcomeVC.xib */; settings = {ASSET_TAGS = (); }; };
 		2D7758431BC2455C007998CD /* WBUserBaseInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7758421BC2455C007998CD /* WBUserBaseInfoVC.m */; settings = {ASSET_TAGS = (); }; };
+		2D7758531BC25DE0007998CD /* DDActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D77584F1BC25DE0007998CD /* DDActionSheet.m */; settings = {ASSET_TAGS = (); }; };
+		2D7758541BC25DE0007998CD /* UIViewController+WBVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7758521BC25DE0007998CD /* UIViewController+WBVC.m */; settings = {ASSET_TAGS = (); }; };
+		2D7758571BC25E0E007998CD /* ALActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7758561BC25E0E007998CD /* ALActionSheetView.m */; settings = {ASSET_TAGS = (); }; };
+		2D77585B1BC25E65007998CD /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D77585A1BC25E65007998CD /* UIImage+ImageEffects.m */; settings = {ASSET_TAGS = (); }; };
 		B54764E147BB41BE5E63E50C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75BE109E70E435B8120EF056 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -32,14 +35,20 @@
 		2D7758291BC23470007998CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D7758301BC24107007998CD /* WBFirstUseNVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WBFirstUseNVC.h; path = FirstUse/ViewController/WBFirstUseNVC.h; sourceTree = "<group>"; };
 		2D7758311BC24107007998CD /* WBFirstUseNVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WBFirstUseNVC.m; path = FirstUse/ViewController/WBFirstUseNVC.m; sourceTree = "<group>"; };
-		2D7758381BC24177007998CD /* UIViewController+WBVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+WBVC.h"; path = "Utily/BaseVC/UIViewController+WBVC.h"; sourceTree = "<group>"; };
-		2D7758391BC24177007998CD /* UIViewController+WBVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+WBVC.m"; path = "Utily/BaseVC/UIViewController+WBVC.m"; sourceTree = "<group>"; };
 		2D77583B1BC24275007998CD /* WB201510.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WB201510.pch; sourceTree = "<group>"; };
 		2D77583C1BC24309007998CD /* WBWelcomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WBWelcomeVC.h; path = FirstUse/ViewController/WBWelcomeVC.h; sourceTree = "<group>"; };
 		2D77583D1BC24309007998CD /* WBWelcomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WBWelcomeVC.m; path = FirstUse/ViewController/WBWelcomeVC.m; sourceTree = "<group>"; };
 		2D77583E1BC24309007998CD /* WBWelcomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WBWelcomeVC.xib; path = FirstUse/ViewController/WBWelcomeVC.xib; sourceTree = "<group>"; };
 		2D7758411BC2455C007998CD /* WBUserBaseInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WBUserBaseInfoVC.h; path = FirstUse/ViewController/WBUserBaseInfoVC.h; sourceTree = "<group>"; };
 		2D7758421BC2455C007998CD /* WBUserBaseInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WBUserBaseInfoVC.m; path = FirstUse/ViewController/WBUserBaseInfoVC.m; sourceTree = "<group>"; };
+		2D77584E1BC25DE0007998CD /* DDActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDActionSheet.h; sourceTree = "<group>"; };
+		2D77584F1BC25DE0007998CD /* DDActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDActionSheet.m; sourceTree = "<group>"; };
+		2D7758511BC25DE0007998CD /* UIViewController+WBVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WBVC.h"; sourceTree = "<group>"; };
+		2D7758521BC25DE0007998CD /* UIViewController+WBVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WBVC.m"; sourceTree = "<group>"; };
+		2D7758551BC25E0E007998CD /* ALActionSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALActionSheetView.h; sourceTree = "<group>"; };
+		2D7758561BC25E0E007998CD /* ALActionSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALActionSheetView.m; sourceTree = "<group>"; };
+		2D7758591BC25E65007998CD /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		2D77585A1BC25E65007998CD /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		75BE109E70E435B8120EF056 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8A6C383344CF76F351252D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,18 +133,51 @@
 		2D7758361BC24126007998CD /* Utily */ = {
 			isa = PBXGroup;
 			children = (
-				2D7758371BC2414D007998CD /* BaseViewController */,
+				2D7758441BC25D50007998CD /* UIKit */,
 			);
 			name = Utily;
 			sourceTree = "<group>";
 		};
-		2D7758371BC2414D007998CD /* BaseViewController */ = {
+		2D7758441BC25D50007998CD /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				2D7758381BC24177007998CD /* UIViewController+WBVC.h */,
-				2D7758391BC24177007998CD /* UIViewController+WBVC.m */,
+				2D7758581BC25E65007998CD /* UIImage+Category */,
+				2D77584D1BC25DE0007998CD /* ActionSheet */,
+				2D7758501BC25DE0007998CD /* BaseVC */,
 			);
-			name = BaseViewController;
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		2D77584D1BC25DE0007998CD /* ActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				2D7758551BC25E0E007998CD /* ALActionSheetView.h */,
+				2D7758561BC25E0E007998CD /* ALActionSheetView.m */,
+				2D77584E1BC25DE0007998CD /* DDActionSheet.h */,
+				2D77584F1BC25DE0007998CD /* DDActionSheet.m */,
+			);
+			name = ActionSheet;
+			path = Utily/UIKit/ActionSheet;
+			sourceTree = "<group>";
+		};
+		2D7758501BC25DE0007998CD /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				2D7758511BC25DE0007998CD /* UIViewController+WBVC.h */,
+				2D7758521BC25DE0007998CD /* UIViewController+WBVC.m */,
+			);
+			name = BaseVC;
+			path = Utily/UIKit/BaseVC;
+			sourceTree = "<group>";
+		};
+		2D7758581BC25E65007998CD /* UIImage+Category */ = {
+			isa = PBXGroup;
+			children = (
+				2D7758591BC25E65007998CD /* UIImage+ImageEffects.h */,
+				2D77585A1BC25E65007998CD /* UIImage+ImageEffects.m */,
+			);
+			name = "UIImage+Category";
+			path = "Utily/UIKit/UIImage+Category";
 			sourceTree = "<group>";
 		};
 		E11A1B1B564FA201D8BF7CC9 /* Frameworks */ = {
@@ -262,11 +304,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D77581D1BC23470007998CD /* AppDelegate.m in Sources */,
+				2D7758531BC25DE0007998CD /* DDActionSheet.m in Sources */,
 				2D77581A1BC23470007998CD /* main.m in Sources */,
-				2D77583A1BC24177007998CD /* UIViewController+WBVC.m in Sources */,
 				2D77583F1BC24309007998CD /* WBWelcomeVC.m in Sources */,
 				2D7758331BC24107007998CD /* WBFirstUseNVC.m in Sources */,
+				2D77585B1BC25E65007998CD /* UIImage+ImageEffects.m in Sources */,
+				2D7758571BC25E0E007998CD /* ALActionSheetView.m in Sources */,
 				2D7758431BC2455C007998CD /* WBUserBaseInfoVC.m in Sources */,
+				2D7758541BC25DE0007998CD /* UIViewController+WBVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
